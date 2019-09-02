@@ -12,6 +12,6 @@ import { LoginPageComponent } from './components/login-page/login-page.component
   declarations: [ HomePageComponent, AdminComponent, CompanyComponent, CustomerComponent, LoginPageComponent],
   imports: [BrowserModule, AppRoutingModule],
   providers: [],
-  bootstrap: []
+  bootstrap: [HomePageComponent]
 })
 export class AppModule { }
